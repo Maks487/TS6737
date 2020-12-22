@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS01-Logowanie do aplikacji" time="18.443" tests="2" failures="0" errors="0">
+   <testsuite name="TS01-Logowanie do aplikacji" tests="2" failures="0" errors="0" time="18.443" timestamp="2020-12-22 18:14:45" hostname="Maks - 192.168.0.13" id="Test Suites/TS01-Logowanie do aplikacji">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Maks\\Katalon Studio\\Project_wsiz\\Reports\\20201222_181440\\TS01-Logowanie do aplikacji\\20201222_181440"/>
+         <property name="logFiles" value="C:\\Users\\Maks\\Katalon Studio\\Project_wsiz\\Reports\\20201222_181440\\TS01-Logowanie do aplikacji\\20201222_181440\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Maks - 192.168.0.13"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="7.7.2.205"/>
+         <property name="browser" value="Chrome 87.0.4280.88"/>
+         <property name="hostAddress" value="192.168.0.13"/>
+         <property name="sessionId" value="56fc6ab11930c14e57cbb06e6b434aa3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/TS01-Zakup produktu/Logowanie do strony/TS01-Poprawne logowanie do aplikacji" time="9.337" classname="Test Cases/TS01-Zakup produktu/Logowanie do strony/TS01-Poprawne logowanie do aplikacji" status="PASSED">
+         <system-out><![CDATA[2020-12-22 18:14:45 - [TEST_CASE][PASSED] - Test Cases/TS01-Zakup produktu/Logowanie do strony/TS01-Poprawne logowanie do aplikacji: Test Cases/TS01-Zakup produktu/Logowanie do strony/TS01-Poprawne logowanie do aplikacji
+
+2020-12-22 18:14:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-12-22 18:14:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-22 18:14:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-22 18:14:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-22 18:14:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-12-22 18:14:50 - [MESSAGE][PASSED] - Current window maximized
+
+2020-12-22 18:14:50 - [TEST_STEP][PASSED] - navigateToUrl("https://www.demoblaze.com/index.html"): Navigate to 'https://www.demoblaze.com/index.html' successfully
+
+2020-12-22 18:14:52 - [MESSAGE][PASSED] - Navigate to 'https://www.demoblaze.com/index.html' successfully
+
+2020-12-22 18:14:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_STORE/a_Log in")): Object: 'Object Repository/Page_STORE/a_Log in' is clicked on
+
+2020-12-22 18:14:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/a_Log in' is clicked on
+
+2020-12-22 18:14:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_STORE/input_Username_loginusername"), "123ed"): Text '123ed' is set on object 'Object Repository/Page_STORE/input_Username_loginusername'
+
+2020-12-22 18:14:54 - [MESSAGE][PASSED] - Text '123ed' is set on object 'Object Repository/Page_STORE/input_Username_loginusername'
+
+2020-12-22 18:14:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_STORE/input_Password_loginpassword"), "o4dhHfndXO0="): Text ****** has been set on object 'Object Repository/Page_STORE/input_Password_loginpassword'
+
+2020-12-22 18:14:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_STORE/input_Password_loginpassword'
+
+2020-12-22 18:14:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_STORE/button_Log in")): Object: 'Object Repository/Page_STORE/button_Log in' is clicked on
+
+2020-12-22 18:14:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/button_Log in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TS01-Zakup produktu/Logowanie do strony/TS01-Błędne logowanie na strone" time="8.079" classname="Test Cases/TS01-Zakup produktu/Logowanie do strony/TS01-Błędne logowanie na strone" status="PASSED">
+         <system-out><![CDATA[2020-12-22 18:14:55 - [TEST_CASE][PASSED] - Test Cases/TS01-Zakup produktu/Logowanie do strony/TS01-Błędne logowanie na strone: Test Cases/TS01-Zakup produktu/Logowanie do strony/TS01-Błędne logowanie na strone
+
+2020-12-22 18:14:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-12-22 18:14:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-12-22 18:14:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-22 18:14:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-22 18:14:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-22 18:14:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-12-22 18:14:59 - [MESSAGE][PASSED] - Current window maximized
+
+2020-12-22 18:14:59 - [TEST_STEP][PASSED] - navigateToUrl("https://www.demoblaze.com/index.html"): Navigate to 'https://www.demoblaze.com/index.html' successfully
+
+2020-12-22 18:15:00 - [MESSAGE][PASSED] - Navigate to 'https://www.demoblaze.com/index.html' successfully
+
+2020-12-22 18:15:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_STORE/a_Log in")): Object: 'Object Repository/Page_STORE/a_Log in' is clicked on
+
+2020-12-22 18:15:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/a_Log in' is clicked on
+
+2020-12-22 18:15:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_STORE/input_Username_loginusername"), "123ed"): Text '123ed' is set on object 'Object Repository/Page_STORE/input_Username_loginusername'
+
+2020-12-22 18:15:02 - [MESSAGE][PASSED] - Text '123ed' is set on object 'Object Repository/Page_STORE/input_Username_loginusername'
+
+2020-12-22 18:15:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_STORE/input_Password_loginpassword"), "MQbfjbrZP5s="): Text ****** has been set on object 'Object Repository/Page_STORE/input_Password_loginpassword'
+
+2020-12-22 18:15:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_STORE/input_Password_loginpassword'
+
+2020-12-22 18:15:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_STORE/button_Log in")): Object: 'Object Repository/Page_STORE/button_Log in' is clicked on
+
+2020-12-22 18:15:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/button_Log in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-12-22 18:14:45 - [TEST_SUITE][PASSED] - TS01-Logowanie do aplikacji: Test Cases/TS01-Zakup produktu/Logowanie do strony/TS01-Błędne logowanie na strone]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

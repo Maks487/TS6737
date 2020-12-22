@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TS01-Błędne logowanie na strone</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6867e86c-b880-4e4a-beb9-fd0d9af48164</testCaseGuid>
+</TestCaseEntity>

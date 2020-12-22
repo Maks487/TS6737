@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS01-Logowanie do aplikacji,Chrome 87.0.4280.88,,,2020-12-22 18:14:45,2020-12-22 18:15:03,"17,628s",PASSED
+,,,,,,,
+Test Cases/TS01-Zakup produktu/Logowanie do strony/TS01-Poprawne logowanie do aplikacji,Chrome 87.0.4280.88,Weryfikacja poprawności działania systemu logowania do strony,,2020-12-22 18:14:45,2020-12-22 18:14:54,"9,337s",PASSED
+"openBrowser("""")",Chrome 87.0.4280.88,,,2020-12-22 18:14:45,2020-12-22 18:14:49,"3,652s",PASSED
+maximizeWindow(),Chrome 87.0.4280.88,,,2020-12-22 18:14:49,2020-12-22 18:14:50,"1,128s",PASSED
+"navigateToUrl(""https://www.demoblaze.com/index.html"")",Chrome 87.0.4280.88,,,2020-12-22 18:14:50,2020-12-22 18:14:52,"1,388s",PASSED
+"click(findTestObject(""Object Repository/Page_STORE/a_Log in""))",Chrome 87.0.4280.88,,,2020-12-22 18:14:52,2020-12-22 18:14:53,"1,188s",PASSED
+"setText(findTestObject(""Object Repository/Page_STORE/input_Username_loginusername""), ""123ed"")",Chrome 87.0.4280.88,,,2020-12-22 18:14:53,2020-12-22 18:14:54,"0,925s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_STORE/input_Password_loginpassword""), ""o4dhHfndXO0="")",Chrome 87.0.4280.88,,,2020-12-22 18:14:54,2020-12-22 18:14:54,"0,423s",PASSED
+"click(findTestObject(""Object Repository/Page_STORE/button_Log in""))",Chrome 87.0.4280.88,,,2020-12-22 18:14:54,2020-12-22 18:14:54,"0,344s",PASSED
+,,,,,,,
+Test Cases/TS01-Zakup produktu/Logowanie do strony/TS01-Błędne logowanie na strone,Chrome 87.0.4280.88,,,2020-12-22 18:14:55,2020-12-22 18:15:03,"8,079s",PASSED
+"openBrowser("""")",Chrome 87.0.4280.88,,,2020-12-22 18:14:55,2020-12-22 18:14:58,"3,429s",PASSED
+maximizeWindow(),Chrome 87.0.4280.88,,,2020-12-22 18:14:58,2020-12-22 18:14:59,"1,122s",PASSED
+"navigateToUrl(""https://www.demoblaze.com/index.html"")",Chrome 87.0.4280.88,,,2020-12-22 18:14:59,2020-12-22 18:15:00,"0,628s",PASSED
+"click(findTestObject(""Object Repository/Page_STORE/a_Log in""))",Chrome 87.0.4280.88,,,2020-12-22 18:15:00,2020-12-22 18:15:01,"1,002s",PASSED
+"setText(findTestObject(""Object Repository/Page_STORE/input_Username_loginusername""), ""123ed"")",Chrome 87.0.4280.88,,,2020-12-22 18:15:01,2020-12-22 18:15:02,"0,934s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_STORE/input_Password_loginpassword""), ""MQbfjbrZP5s="")",Chrome 87.0.4280.88,Wrong password,,2020-12-22 18:15:02,2020-12-22 18:15:02,"0,370s",PASSED
+"click(findTestObject(""Object Repository/Page_STORE/button_Log in""))",Chrome 87.0.4280.88,,,2020-12-22 18:15:02,2020-12-22 18:15:03,"0,323s",PASSED
